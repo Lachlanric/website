@@ -6,6 +6,7 @@ function displayImg(img_tabs_id,img_id) {
 
     [...document.querySelectorAll(`#img-tab-preview-${img_tabs_id} > div > img`)].forEach(e=>{
         e.style.opacity = e.id==`img-preview-${img_tabs_id}-${img_id}` ? String(1) : String(0.5);
+        e.style.scale = e.id==`img-preview-${img_tabs_id}-${img_id}` ? String(1.1) : String(1);
     });
 }
 

@@ -9,7 +9,7 @@
     width: calc(100% * var(--disp));
     height: calc(100% * var(--disp));
     /* height: 100%; */
-    transition: opacity 300ms, width 300ms, height 300ms, left 300ms;
+    transition: opacity 200ms, width 200ms, height 200ms, left 200ms;
 }
 
 .littlebox{
@@ -17,6 +17,7 @@
     height: 100%;
     background-color: beige;
     opacity: 0.5;
+    transition: scale 200ms;
 }
 
 img-tabs{
