@@ -1,0 +1,25 @@
+.bigbox{
+    --disp: 0;
+    opacity: var(--disp);
+    
+    /* Uncomment these for them to appear from the upper centre*/
+    /*position: absolute;
+    left: calc(50% * (1 - var(--disp)));*/
+    
+    width: calc(100% * var(--disp));
+    height: calc(100% * var(--disp));
+    /* height: 100%; */
+    transition: opacity 300ms, width 300ms, height 300ms, left 300ms;
+}
+
+.littlebox{
+    cursor: pointer;
+    height: 100%;
+    background-color: beige;
+    opacity: 0.5;
+}
+
+img-tabs{
+    /* This is overridden once page loads */
+    display: none;
+}
