@@ -1,0 +1,12 @@
+main {
+    padding: 5%;
+}
+
+.spacer-container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.side-spacer {
+    background-color: bisque;
+}

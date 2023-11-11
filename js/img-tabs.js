@@ -57,4 +57,4 @@ function parseImgTabs() {
     
 }
 
-window.onload = parseImgTabs;
+addEventListener("DOMContentLoaded", parseImgTabs);
