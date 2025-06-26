@@ -1,0 +1,24 @@
+<!-- Title -->
+Video Annotation Tool 
+<!-- Content -->
+<div class="main">
+  <div class="title">Video Annotation Tool</div>
+
+  <div class="gallery">
+    <div>
+      <div class="heading">What did we build?</div>
+
+      <p>
+        We designed and produced a web app to allow inexperienced users to annotation videos to obtain object detection data used to train AI models, with an emphasis on ease of use. 
+      </p>
+    </div>
+
+    <div class="heading">Demo</div>
+
+    <video class="video-landscape" controls>
+      <source src="./img/video-annotation/VideoAnnotation.mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+</div>

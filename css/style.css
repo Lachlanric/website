@@ -29,8 +29,8 @@ body {
   text-align: right;
 }
 .gallery-image {
-  width: 240px;
-  height: 320px;
+  /* width: 240px;
+  height: 320px; */
   object-fit: cover;
   border-radius: 1rem;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
@@ -76,4 +76,29 @@ audio {
   width: 100%;
   /* margin-left: 8rem;
   margin-right: 8rem; */
+}
+.video-portrait {
+  width: 20rem;
+  height: 35rem;
+}
+.video-landscape {
+  width: 50rem;
+  height: 30rem;
+}
+
+.image-portrait {
+  width: 15rem;
+  height: 20rem;
+}
+.image-landscape {
+  width: 20rem;
+  height: 15rem;
+}
+
+a {
+  color: cadetblue;
+}
+
+.selected {
+  font-weight: bold;
 }

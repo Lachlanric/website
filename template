@@ -14,9 +14,7 @@
     <nav class="side-panel open" id="sidePanel">
       <h2>Projects</h2>
       <ul>
-        <li><a href="auto-wah.html">Auto-Wah Pedal</a></li>
-        <li><a href="robot-arm.html">Robot Arm</a></li>
-        <li><a href="tennis-ball-collecting-robot.html">Tennis Ball Collecting Robot</a></li>
+        <!-- Navigation -->
       </ul>
     </nav>
 

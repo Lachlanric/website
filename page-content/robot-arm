@@ -1,0 +1,62 @@
+<!-- Title -->
+VR Controlled Robot Arm
+<!-- Content -->
+<div class="main">
+  <div class="title">VR Controlled Robot Arm</div>
+
+  <div class="gallery">
+    <div>
+      <div class="heading">What did I build?</div>
+
+      <p>
+        I built a 4-DoF robotic arm (excluding end effector) with a claw gripper which has the ability to be controlled using a virtual reality controller. This
+        allows the operator to use their intuitive spacial awareness to directly adjust the end effector position in real time.
+      </p>
+
+      <p>GitHub: <a href="https://github.com/Lachlanric/Robot-Arm-Snatcha/tree/main">https://github.com/Lachlanric/Robot-Arm-Snatcha/tree/main</a></p>
+    </div>
+
+    <div class="heading">Progress</div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-portrait" src="./img/robot-arm/1_test_stm.png" alt="Auto Wah Pedal" />
+      <div class="caption">Custom STM32 board for prototyping and testing</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-portrait" src="./img/robot-arm/2_robot_base.png" alt="Auto Wah Pedal" />
+      <div class="caption">Rotational base for robot</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/robot-arm/5_cutom_stm32_hardware.png" alt="Auto Wah Pedal" />
+      <div class="caption">Final custom STM32 hardware for robot motor control</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/robot-arm/6_gripper.png" alt="Auto Wah Pedal" />
+      <div class="caption">Gripper attachment</div>
+    </div>
+
+    <div class="heading">Motor angle control</div>
+
+    <video class="video-landscape" controls>
+      <source src="./img/robot-arm/3_motor_angle_control.mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="heading">X-Y-Z control</div>
+
+    <video class="video-landscape" controls>
+      <source src="./img/robot-arm/4_X-Y-Z-control.mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="heading">Oculus Quest 2 VR control</div>
+
+    <video class="video-landscape" controls>
+      <source src="./img/robot-arm/7_VR_Control.mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>

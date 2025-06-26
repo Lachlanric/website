@@ -1,0 +1,57 @@
+<!-- Title -->
+Tennis Ball Collecting Robot
+<!-- Content -->
+<div class="main">
+  <div class="title">Tennis Ball Collecting Mobile Robot</div>
+
+  <div class="gallery">
+    <div>
+      <div class="heading">What did we build?</div>
+
+      <p>
+        We set out to design and construct a mobile robot which collects tennis balls inside a tennis court quadrant and deposits them in a cardboard box. The
+        project was subject to time, cost and materials constraints, prompting us to make several difficult tradeoffs to ensure reliable operation during the
+        final demonstration for the project unit.
+      </p>
+    </div>
+
+    <div class="heading">Progress</div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/tennis-ball/1_Motors.png" alt="Auto Wah Pedal" />
+      <div class="caption">STM32 + L298N motor controller</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/tennis-ball/7_BallBoxDetection.png" alt="Auto Wah Pedal" />
+      <div class="caption">Ball and box detection</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/tennis-ball/6_Claw_Lift.jpg" alt="Auto Wah Pedal" />
+      <div class="caption">Claw + Lifting mechanism + Camera mount</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/tennis-ball/8_Testing.png" alt="Auto Wah Pedal" />
+      <div class="caption">Local testing and parameter tuning</div>
+    </div>
+
+
+
+    <div class="heading">Robot in action</div>
+
+    <video class="video-portrait" controls>
+      <source src="./img/tennis-ball/4_RobotVideoSped.mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="heading">Ball tracking</div>
+
+    <video class="video-landscape" controls>
+      <source src="./img/tennis-ball/5_RobotRobust.mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+</div>

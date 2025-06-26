@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+  </head>
+
+  <body class="panel-open">
+    <button class="side-panel-toggle" id="sidePanelToggle">&#9776;</button>
+    <nav class="side-panel open" id="sidePanel">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="auto-wah.html">Auto-Wah Guitar Pedal</a></li><li><a href="robot-arm.html">VR Controlled Robot Arm</a></li><li><a href="tennis-ball-collecting-robot.html">Tennis Ball Collecting Robot</a></li><li class="selected"><a href="video-annotation.html">&diams; Video Annotation Tool</a></li>
+      </ul>
+    </nav>
+
+    <div class="main">
+  <div class="title">Video Annotation Tool</div>
+
+  <div class="gallery">
+    <div>
+      <div class="heading">What did we build?</div>
+
+      <p>
+        We designed and produced a web app to allow inexperienced users to annotation videos to obtain object detection data used to train AI models, with an emphasis on ease of use. 
+      </p>
+    </div>
+
+    <div class="heading">Demo</div>
+
+    <video class="video-landscape" controls>
+      <source src="./img/video-annotation/VideoAnnotation.mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+</div>
+
+    <!-- Modal for expanded image -->
+    <div id="imgModal" class="modal">
+      <span class="modal-close" id="modalClose">&times;</span>
+      <img class="modal-content" id="modalImg" src="" alt="Expanded image" />
+    </div>
+  </body>
+
+  <script src="./js/nav.js"></script>
+  <script src="./js/modal.js"></script>
+</html>
