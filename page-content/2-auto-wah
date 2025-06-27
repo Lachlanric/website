@@ -45,8 +45,31 @@ Auto-Wah Guitar Pedal
     <div class="heading">How does it sound?</div>
 
     <div class="audio-wrapper">
+      <div class="caption">Funk (Dry)</div>
       <audio controls>
-        <source src="audio/Funk.wav" />
+        <source src="audio/Funk_Dry.wav" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <div class="caption">Funk (Auto-Wah on)</div>
+      <audio controls>
+        <source src="audio/Funk_Wet.wav" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <br>
+      <br>
+      <br>
+
+      <div class="caption">Rock (Dry)</div>
+      <audio controls>
+        <source src="audio/Alice_Dry.wav" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <div class="caption">Rock (Auto-Wah on)</div>
+      <audio controls>
+        <source src="audio/Alice_Wet.wav" />
         Your browser does not support the audio element.
       </audio>
     </div>
