@@ -1,9 +1,85 @@
+<!DOCTYPE html>
+
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=./1-robot-arm.html" />
+    <meta charset="UTF-8" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
   </head>
 
-  <body>
-    <p><a href="./1-robot-arm.html">Redirect to projects page</a></p>
+  <body class="panel-open">
+    <button class="side-panel-toggle" id="sidePanelToggle">&#9776;</button>
+    <nav class="side-panel open" id="sidePanel">
+      <h2>Lachlan Richards</h2>
+      <ul><li class="selected"><a href="index.html">&diams; Home</a></li></ul>
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="1-robot-arm.html">VR Controlled Robot Arm</a></li><li><a href="2-auto-wah.html">Auto-Wah Guitar Pedal</a></li><li><a href="3-tennis-ball.html">Tennis Ball Collecting Robot</a></li><li><a href="4-video-annotation.html">Video Annotation Tool</a></li>
+      </ul>
+    </nav>
+
+    <div class="main">
+  <div class="title">Lachlan Richards</div>
+  <div class="subtitle">Projects</div>
+
+  <div class="gallery">
+    <div class="projects-container">
+      
+      <div class="project-card" onclick="location.href='1-robot-arm.html'">
+        <img src="./img/1-robot-arm/Thumbnail.png" class="project-image" />
+        <div class="project-title">VR Controlled Robot Arm</div>
+      </div>
+      
+
+      <div class="project-card" onclick="location.href='2-auto-wah.html'">
+        <img src="./img/2-auto-wah/Thumbnail.png" class="project-image" />
+        <div class="project-title">Auto-Wah Guitar Pedal</div>
+      </div>
+      
+
+      <div class="project-card" onclick="location.href='3-tennis-ball.html'">
+        <img src="./img/3-tennis-ball/Thumbnail.png" class="project-image" />
+        <div class="project-title">Tennis Ball Collecting Robot</div>
+      </div>
+      
+
+      <div class="project-card" onclick="location.href='4-video-annotation.html'">
+        <img src="./img/4-video-annotation/Thumbnail.png" class="project-image" />
+        <div class="project-title">Video Annotation Tool</div>
+      </div>
+      
+
+      <!-- <div class="project-card" onclick="location.href='1-robot-arm.html'">
+        <img src="./img/robot-arm/Thumbnail.png" class="project-image" />
+        <div class="project-title">VR Controlled Robot Arm</div>
+      </div>
+      <div class="project-card" onclick="location.href='2-auto-wah.html'">
+        <img src="./img/auto-wah/Thumbnail.png" class="project-image" />
+        <div class="project-title">Auto Wah Pedal</div>
+      </div>
+      <div class="project-card" onclick="location.href='3-tennis-ball-collecting-robot.html'">
+        <img src="./img/tennis-ball/Thumbnail.png" class="project-image" />
+        <div class="project-title">Tennis Ball Collecting Robot</div>
+      </div>
+      <div class="project-card" onclick="location.href='4-video-annotation.html'">
+        <img src="./img/video-annotation/Thumbnail.png" class="project-image" />
+        <div class="project-title">Video Annotation Tool</div>
+      </div> -->
+      
+    </div>
+  </div>
+</div>
+
+
+    <!-- Modal for expanded image -->
+    <div id="imgModal" class="modal">
+      <span class="modal-close" id="modalClose">&times;</span>
+      <img class="modal-content" id="modalImg" src="" alt="Expanded image" />
+    </div>
   </body>
+
+  <script src="./js/nav.js"></script>
+  <script src="./js/modal.js"></script>
 </html>
