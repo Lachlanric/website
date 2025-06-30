@@ -9,10 +9,28 @@ Tennis Ball Collecting Robot
       <div class="heading">What did we build?</div>
 
       <p>
-        We set out to design and construct a mobile robot which collects tennis balls inside a tennis court quadrant and deposits them in a cardboard box. The
+        We set out to design and construct an autonomous mobile robot which collects tennis balls inside a tennis court quadrant and deposits them in a cardboard box. The
         project was subject to time, cost and materials constraints, prompting us to make several difficult tradeoffs to ensure reliable operation during the
         final demonstration for the project unit.
       </p>
+    </div>
+
+    <div class="primary-image-container">
+      <img class="gallery-image image-landscape" src="./img/3-tennis-ball/Thumbnail.png" alt="Auto Wah Pedal" />
+    </div>
+
+    <div>
+      <div class="heading">Key Technical Skills</div>
+
+      <ul>
+        <li>Raspberry Pi programming</li>
+        <li>STM32 microcontroller programming</li>
+        <li>3D CAD - Solidworks</li>
+        <li>Control systems</li>
+        <li>Protoboarding</li>
+        <li>Computer vision</li>
+        <li>Machine learning</li>
+      </ul>
     </div>
 
     <div class="heading">Progress</div>
@@ -37,8 +55,6 @@ Tennis Ball Collecting Robot
       <div class="caption">Local testing and parameter tuning</div>
     </div>
 
-
-
     <div class="heading">Robot in action</div>
 
     <video class="video-portrait" controls>
@@ -52,6 +68,5 @@ Tennis Ball Collecting Robot
       <source src="./img/3-tennis-ball/5_RobotRobust.mp4" />
       Your browser does not support the video tag.
     </video>
-
   </div>
 </div>
