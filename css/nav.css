@@ -54,11 +54,7 @@
 .side-panel-toggle:hover {
   background: #2d323a;
 }
-@media (max-width: 600px) {
-  .side-panel {
-    width: 70vw;
-  }
-}
+
 body {
   margin-left: 0;
   transition: margin-left 0.3s;
@@ -66,14 +62,14 @@ body {
 body.panel-open {
   margin-left: 220px;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body.panel-open {
     margin-left: 70vw;
   }
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .side-panel {
     width: 100vw;
     height: 60vh;

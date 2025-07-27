@@ -14,7 +14,9 @@
     <button class="side-panel-toggle" id="sidePanelToggle">&#9776;</button>
     <nav class="side-panel open" id="sidePanel">
       <h2>Lachlan Richards</h2>
-      <ul><li class="selected"><a href="index.html">&diams; Home</a></li></ul>
+      <ul>
+        <li class="selected"><a href="index.html">&diams; Home</a></li>
+      </ul>
       <h2>Projects</h2>
       <ul>
         <li><a href="1-robot-arm.html">VR Controlled Robot Arm</a></li><li><a href="2-auto-wah.html">Auto-Wah Guitar Pedal</a></li><li><a href="3-tennis-ball.html">Tennis Ball Collecting Robot</a></li><li><a href="4-video-annotation.html">Video Annotation Tool</a></li>
@@ -79,6 +81,20 @@
       <span class="modal-close" id="modalClose">&times;</span>
       <img class="modal-content" id="modalImg" src="" alt="Expanded image" />
     </div>
+
+    <script>
+      function setSidePanelState() {
+        const sidePanel = document.getElementById("sidePanel");
+        if (window.innerWidth > 700) {
+          sidePanel.classList.add("open");
+          document.body.classList.add("panel-open");
+        } else {
+          sidePanel.classList.remove("open");
+          document.body.classList.remove("panel-open");
+        }
+      }
+      window.addEventListener("DOMContentLoaded", setSidePanelState);
+    </script>
   </body>
 
   <script src="./js/nav.js"></script>
