@@ -17,7 +17,7 @@ Auto-Wah Guitar Pedal
     </div>
 
     <div class="primary-image-container">
-      <img class="gallery-image image-landscape" src="./img/2-auto-wah/Thumbnail.png" alt="Auto Wah Pedal" />
+      <img class="gallery-image image-landscape" src="./img/5-auto-wah/Thumbnail.png" alt="Auto Wah Pedal" />
     </div>
 
     <div>
@@ -32,23 +32,23 @@ Auto-Wah Guitar Pedal
     <div class="heading">Progress</div>
 
     <div class="gallery-item gallery-item-alternate">
-      <img class="gallery-image image-portrait" src="./img/2-auto-wah/1_Breadboard.jpg" alt="Auto Wah Pedal" />
+      <img class="gallery-image image-portrait" src="./img/5-auto-wah/1_Breadboard.jpg" alt="Auto Wah Pedal" />
       <div class="caption">Breadboarding</div>
     </div>
     <div class="gallery-item gallery-item-alternate">
-      <img class="gallery-image image-portrait" src="./img/2-auto-wah/2_Protoboard.jpg" alt="Guitarist using pedal" />
+      <img class="gallery-image image-portrait" src="./img/5-auto-wah/2_Protoboard.jpg" alt="Guitarist using pedal" />
       <div class="caption">Prototyping circuit board</div>
     </div>
     <div class="gallery-item gallery-item-alternate">
-      <img class="gallery-image image-portrait" src="./img/2-auto-wah/3_FinishedSoldering.jpg" alt="Pedalboard setup" />
+      <img class="gallery-image image-portrait" src="./img/5-auto-wah/3_FinishedSoldering.jpg" alt="Pedalboard setup" />
       <div class="caption">Connecting all components</div>
     </div>
     <div class="gallery-item gallery-item-alternate">
-      <img class="gallery-image image-portrait" src="./img/2-auto-wah/5_ChassisFinished.jpg" alt="Close-up of pedal knobs" />
+      <img class="gallery-image image-portrait" src="./img/5-auto-wah/5_ChassisFinished.jpg" alt="Close-up of pedal knobs" />
       <div class="caption">All components mounted in container</div>
     </div>
     <div class="gallery-item gallery-item-alternate">
-      <img class="gallery-image image-portrait" src="./img/2-auto-wah/6_Finished.jpg" alt="Close-up of pedal knobs" />
+      <img class="gallery-image image-portrait" src="./img/5-auto-wah/6_Finished.jpg" alt="Close-up of pedal knobs" />
       <div class="caption">Pedal powered up and plugged into amplifier</div>
     </div>
 

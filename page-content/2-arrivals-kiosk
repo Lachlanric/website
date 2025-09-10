@@ -1,0 +1,45 @@
+<!-- Title -->
+Medical Self Checkin Kiosk
+<!-- Content -->
+<div class="main">
+  <div class="title">Medical Self Checkin Kiosk</div>
+
+  <div class="gallery">
+    <div>
+      <div class="heading">What did I build?</div>
+
+      <p>
+        I developed and deployed a self checkin kiosk for a medical clinic to support our virtual reception team at
+        Advance Healthcare. This cloud-hosted app is used on iPads at several of our clinics, and the app interacts
+        seamlessly with our practice management software to mark these appointments as "arrived".
+      </p>
+      <p>
+        The interface had to be robust and intuitive enough to enable patients of all ages and backgrounds to use it
+        effectively.
+      </p>
+    </div>
+
+    <!-- <div class="primary-image-container">
+      <img class="primary-image image-landscape" src="./img/4-video-annotation/Thumbnail.png" alt="Auto Wah Pedal" />
+    </div> -->
+
+    <div>
+      <div class="heading">Key Technical Skills</div>
+
+      <ul>
+        <li>Web development</li>
+        <li>UI design</li>
+        <li>Networking / API integration</li>
+        <li>Authentication</li>
+        <li>Cloud hosting and data handling</li>
+      </ul>
+    </div>
+
+    <div class="heading">Demo</div>
+
+    <video class="video-landscape" controls>
+      <source src="./img/2-arrivals-kiosk\Kiosk.mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>

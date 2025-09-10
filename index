@@ -10,7 +10,7 @@
         <img src="./img/robot-arm/Thumbnail.png" class="project-image" />
         <div class="project-title">VR Controlled Robot Arm</div>
       </div>
-      <div class="project-card" onclick="location.href='2-auto-wah.html'">
+      <div class="project-card" onclick="location.href='5-auto-wah.html'">
         <img src="./img/auto-wah/Thumbnail.png" class="project-image" />
         <div class="project-title">Auto Wah Pedal</div>
       </div>
