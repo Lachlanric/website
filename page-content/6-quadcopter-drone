@@ -1,0 +1,77 @@
+<!-- Title -->
+Quadcopter Drone
+<!-- Content -->
+<div class="main">
+  <div class="title">Quadcopter Drone</div>
+
+  <div class="gallery">
+    <div>
+      <div class="heading">What did I build?</div>
+
+      <p>I built a quadcopter drone with an accompanying joystick controller and desktop client.</p>
+
+      <p>GitHub: <a href="https://github.com/Lachlanric/esp32s3-drone-project">https://github.com/Lachlanric/esp32s3-drone-project</a></p>
+    </div>
+
+    <div class="primary-image-container">
+      <img class="gallery-image image-portrait" src="./img/6-quadcopter-drone/drone-flying.gif" width="540" height="540" alt="Quadcopter Drone" />
+    </div>
+
+    <div>
+      <div class="heading">Key Technical Skills</div>
+
+      <ul>
+        <li>Analogue electronics design</li>
+        <li>Protoboarding</li>
+        <li>PCB Design</li>
+        <li>Surface mount soldering</li>
+        <li>ESP32 microcontroller programming</li>
+        <li>Real time operating systems</li>
+        <li>Pose estimation</li>
+        <li>Control system design</li>
+      </ul>
+    </div>
+
+    <div class="heading">Progress</div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/6-quadcopter-drone/drone-lego.png" alt="Auto Wah Pedal" />
+      <div class="caption">Prototyping drone out of LEGO and protoboard</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/6-quadcopter-drone/estimator.gif" alt="Auto Wah Pedal" />
+      <div class="caption">Attitide/Pose estimation</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/6-quadcopter-drone/drone-first-flight.gif" alt="Auto Wah Pedal" />
+      <div class="caption">First flight!</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/6-quadcopter-drone/drone-pcb.png" alt="Auto Wah Pedal" />
+      <div class="caption">PCB design</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-portrait" src="./img/6-quadcopter-drone/pcb-assembled.jpg" alt="Auto Wah Pedal" />
+      <div class="caption">SMD soldering and assembly</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/6-quadcopter-drone/Thumbnail.png" alt="Auto Wah Pedal" />
+      <div class="caption">Final drone fully assembled</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-landscape" src="./img/6-quadcopter-drone/controller.jpg" alt="Auto Wah Pedal" />
+      <div class="caption">Joystick controller</div>
+    </div>
+
+    <div class="gallery-item gallery-item-alternate">
+      <img class="gallery-image image-portrait" src="./img/6-quadcopter-drone/drone-flying.gif" alt="Auto Wah Pedal" />
+      <div class="caption">Flying</div>
+    </div>
+  </div>
+</div>
