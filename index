@@ -1,28 +1,11 @@
 <div class="main">
   <div class="title">Lachlan Richards</div>
-  <div class="subtitle">Projects</div>
 
+  <!-- Thumbnails -->
+
+  <!-- <div class="subtitle">Projects</div>
   <div class="gallery">
-    <div class="projects-container">
-      <!-- Thumbnails -->
-
-      <!-- <div class="project-card" onclick="location.href='1-robot-arm.html'">
-        <img src="./img/robot-arm/Thumbnail.png" class="project-image" />
-        <div class="project-title">VR Controlled Robot Arm</div>
-      </div>
-      <div class="project-card" onclick="location.href='5-auto-wah.html'">
-        <img src="./img/auto-wah/Thumbnail.png" class="project-image" />
-        <div class="project-title">Auto Wah Pedal</div>
-      </div>
-      <div class="project-card" onclick="location.href='3-tennis-ball-collecting-robot.html'">
-        <img src="./img/tennis-ball/Thumbnail.png" class="project-image" />
-        <div class="project-title">Tennis Ball Collecting Robot</div>
-      </div>
-      <div class="project-card" onclick="location.href='4-video-annotation.html'">
-        <img src="./img/video-annotation/Thumbnail.png" class="project-image" />
-        <div class="project-title">Video Annotation Tool</div>
-      </div> -->
-      
-    </div>
-  </div>
+    <div class="projects-container"></div>
+  </div> -->
+  
 </div>
