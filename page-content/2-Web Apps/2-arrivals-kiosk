@@ -37,7 +37,7 @@ Medical Self Checkin Kiosk
 
     <div class="heading">Demo</div>
 
-    <video class="video-landscape" controls>
+    <video class="video-landscape" autoplay muted loop>
       <source src="./img/2-arrivals-kiosk\Kiosk.mp4" />
       Your browser does not support the video tag.
     </video>

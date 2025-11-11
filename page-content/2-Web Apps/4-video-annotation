@@ -30,7 +30,7 @@ Video Annotation Tool
 
     <div class="heading">Demo</div>
 
-    <video class="video-landscape" controls>
+    <video class="video-landscape" autoplay muted loop>
       <source src="./img/4-video-annotation/VideoAnnotation.mp4" />
       Your browser does not support the video tag.
     </video>
